@@ -1,0 +1,19 @@
+{
+  "name": "newwebsite",
+  "version": "1.0.0",
+  "description": "Just an experiment site",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arushacked/newWebsite.git"
+  },
+  "author": "Aryan Agarwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arushacked/newWebsite/issues"
+  },
+  "homepage": "https://github.com/Arushacked/newWebsite#readme"
+}
