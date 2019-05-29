@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header><h1>Welcome ! Here we provide free services !</h1></header>
+  <nav id="navig">
+  	<ul id="menu">
+  		<li><a href="#Home"></a>Home</li>
+  		<li><a href="#About"></a>About</li>
+  		<li><a href="#faq"></a>FAQ</li>
+  		<li><a href="#Contact"></a>Contact</li>
+  	</ul>
+  </nav>
+    <!--This is the side menu start-->
+  <div id="sidemenu">
+  	<ul>
+  		<li><a href="calculator.html" target="_blank">Calculator</a></li>
+      <li><a href="wallpapers.html" target="_blank">Wallpapers</a></li>
+  	</ul>
+  </div>
+  <!--This is the side menu end-->
+
+    <!--This is the body start-->
+<section id="start">
+	<h2>Welcome to the calculator<br></h2>
+</section>
+<input type="number" name="n1" id="n1">
+<input type="number" name="n2" id="n2"><br>
+<button onclick="sum()">Sum</button>
+<button onclick="sub()">Subtract</button><br>
+<button onclick="mul()">Multiply</button>
+<button onclick="div()">Divide</button><br>
+<output id="ans">Your answer is: </output>
+<script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
