@@ -1,0 +1,37 @@
+body{
+	background-image: linear-gradient(red,yellow );
+	align-content: center;
+	text-align: center;
+
+}
+header{
+	 font-family: 'ZCOOL KuaiLe', cursive;
+}
+#work{
+	border: 1px 1px solid black;
+	width: 600px;
+	height: 350px;
+	display: block;
+	float: center;
+	text-align: center;
+}
+input{
+	display: block;
+	padding: 5px;
+	margin: 4px;
+	display: block;
+	align-self: center;
+	width: 200px;
+	margin-left: 42%;
+}
+#done{
+	color: white;
+	font-family: 'ZCOOL KuaiLe', cursive;
+}
+button{
+	color: white;
+	background-color: black;
+	padding: 3px;
+	margin: 3px;
+	box-shadow: 2px solid yellow;
+}
